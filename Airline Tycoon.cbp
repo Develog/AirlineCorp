@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Airline Tycoon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Airline Tycoon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.3/include" />
+					<Add directory="../Airline Tycoon" />
+					<Add directory="Screen" />
+					<Add directory="GUI" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-system" />
+					<Add library="sfml-window" />
+					<Add library="sfml-graphics" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.3/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Airline Tycoon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Airline Tycoon" />
+					<Add directory="Screen" />
+					<Add directory="GUI" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.3/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="sfml-graphics" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.3/lib" />
+		</Linker>
+		<Unit filename="Airport.cpp" />
+		<Unit filename="Airport.h" />
+		<Unit filename="AirportList.cpp" />
+		<Unit filename="AirportList.h" />
+		<Unit filename="ClockTime.cpp" />
+		<Unit filename="ClockTime.h" />
+		<Unit filename="Config.cpp" />
+		<Unit filename="Config.h" />
+		<Unit filename="Country.cpp" />
+		<Unit filename="Country.h" />
+		<Unit filename="CountryList.cpp" />
+		<Unit filename="CountryList.h" />
+		<Unit filename="Flight.cpp" />
+		<Unit filename="Flight.h" />
+		<Unit filename="FlightList.cpp" />
+		<Unit filename="FlightList.h" />
+		<Unit filename="Function.cpp" />
+		<Unit filename="Function.h" />
+		<Unit filename="GUI/Button.cpp" />
+		<Unit filename="GUI/Button.h" />
+		<Unit filename="GUI/Cursor.cpp" />
+		<Unit filename="GUI/Cursor.h" />
+		<Unit filename="GUI/GUI_Hangar.cpp" />
+		<Unit filename="GUI/GUI_Hangar.h" />
+		<Unit filename="GUI/GUI_Line.cpp" />
+		<Unit filename="GUI/GUI_Line.h" />
+		<Unit filename="GUI/GUI_LineView.cpp" />
+		<Unit filename="GUI/GUI_LineView.h" />
+		<Unit filename="GUI/GUI_Objective.cpp" />
+		<Unit filename="GUI/GUI_Objective.h" />
+		<Unit filename="GUI/GUI_PlaneStore.cpp" />
+		<Unit filename="GUI/GUI_PlaneStore.h" />
+		<Unit filename="GUI/ScrollableArea.cpp" />
+		<Unit filename="GUI/ScrollableArea.h" />
+		<Unit filename="GUI/TextArea.cpp" />
+		<Unit filename="GUI/TextArea.h" />
+		<Unit filename="GUI/TextBox.cpp" />
+		<Unit filename="GUI/TextBox.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Hangar.cpp" />
+		<Unit filename="Hangar.h" />
+		<Unit filename="Line.cpp" />
+		<Unit filename="Line.h" />
+		<Unit filename="LineList.cpp" />
+		<Unit filename="LineList.h" />
+		<Unit filename="Money.cpp" />
+		<Unit filename="Money.h" />
+		<Unit filename="Plane.cpp" />
+		<Unit filename="Plane.h" />
+		<Unit filename="PlaneList.cpp" />
+		<Unit filename="PlaneList.h" />
+		<Unit filename="Scenario.cpp" />
+		<Unit filename="Scenario.h" />
+		<Unit filename="ScenarioList.cpp" />
+		<Unit filename="ScenarioList.h" />
+		<Unit filename="Screen/ScreenManager.cpp" />
+		<Unit filename="Screen/ScreenManager.h" />
+		<Unit filename="Screen/Screen_Main.cpp" />
+		<Unit filename="Screen/Screen_Main.h" />
+		<Unit filename="Screen/Screen_Menu.cpp" />
+		<Unit filename="Screen/Screen_Menu.h" />
+		<Unit filename="Screen/Screen_NewGame.cpp" />
+		<Unit filename="Screen/Screen_NewGame.h" />
+		<Unit filename="Society.cpp" />
+		<Unit filename="Society.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

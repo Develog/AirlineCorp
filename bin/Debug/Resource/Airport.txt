@@ -1,0 +1,3 @@
+France:Paris|Lyon|Marseille
+Angleterre:Londres|Manchester
+Allemagne:Francfort|Munich
