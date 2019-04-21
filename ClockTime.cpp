@@ -21,7 +21,7 @@ void ClockTime::updateTime()
 
     if(secondIG >= 1)
     {
-        minuteIG += 1;
+        minuteIG += 5;
         secondIG = 0;
     }
     if(minuteIG >= 60)
